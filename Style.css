@@ -1,0 +1,220 @@
+. location{
+       
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+
+}
+
+.location>p{
+   margin:0px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    
+}
+
+.verticle-line{
+    width: 1px;
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    height: 100%;
+}
+.search-div{
+   
+    padding: 0px 12px;
+    color: rgb(130, 130, 130);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+   
+}
+
+.search-div>input{
+    border:none;
+    height:45px;
+    width:40vw; 
+background-color:transparent;  
+}
+
+::placeholder{
+    font-size: 14px;
+   
+    color: rgb(153, 153, 153);
+}
+.my-categories{
+    width:85%
+}
+
+.my-container,.category-section{
+    margin: auto;
+    width: 85%;
+    overflow-x: auto;
+}
+
+
+.my-list{
+  
+    white-space:nowrap;
+}
+
+.my-list>img{
+    padding: 10px;
+
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.my-card{
+    width:179px;
+    margin-inline:10px;
+}
+
+.my-card-time{
+    width:fit-content;
+    height: 10px;
+   background-color: rgb (248, 248, 248);
+   padding:0px  4px;
+   border-radius: 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+
+.my-card-title{
+    font-size: 13px;
+    font-weight:700;
+    color:rgb(31, 31, 31 )
+
+}
+
+.my-card-weight{
+    color:#666666;
+    font-size:9px;
+}
+
+.card-price{
+    color:rgb(31, 31, 31);
+    font: weight 600;
+    font: size 12px;
+}
+
+.category-section{
+    width:100%
+    margin:auto;
+}
+
+.row-3{
+    color:#666666;
+    font-size:15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.row-2{
+    display:flex;
+    padding:10px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.row-2>p{
+    width:25%;
+    color:#666666;
+    font-size:12px;
+    text-align: center;
+}
+.Download-section>p{
+    font-family: Okra;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    color:#666666
+}
+.Download-btns{
+
+    background-color:#213b50;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    background-color: black; /* Added a semicolon here */
+    border-radius: 50%; /* Corrected the property name */
+    color: white;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.row-1{
+    margin-top: 20px;
+        display:flex;
+        justify-content: space-between;
+        
+        
+    
+}
+
+.useful-links{
+    flex:2;
+}
+
+.category-section{
+   
+       flex:3;
+       
+    
+}
+
+.td{
+    font-size:14px;
+    padding:2px 10px;
+    color:#666666;
+}
+
+table{
+width:100%;
+}
+
+@media screen and(max-width:768px) {
+    nav ,.row-2,.row-1{
+        flex-direction:coloum;
+    }
+   .verticle-line{
+display:none
+    }
+
+}
+.row-1>div{
+margin-top:20px;
+}
+
+.row-1>div>h2,.row-1>div>h4{
+    text-align:center;
+
+}
+
+td{
+    text-align:center;
+}
+
+.social{
+    margin-top:10px; 
+}
